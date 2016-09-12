@@ -1,6 +1,7 @@
 from collections import defaultdict
-import pdb
-pdb.set_trace()
+import sys
+#import pdb
+#pdb.set_trace()
 
 
 class sample(object):
@@ -14,10 +15,10 @@ class sample(object):
 
 
 
-def main():
+def find_highconf(input_file):
     highconf_locus = []
     count = 0
-    f = open("/scail/u/zhanglu2/LinkFam/varcall/10X_trio_chr20_HighCon_SNP.vcf","r")
+    f = open(input_file,"r")
     curr = 0
     reads_depth = 2
     for line in f:
@@ -66,9 +67,7 @@ def main():
                 pass
       
 
-    print count,len(highconf_locus),float(len(highconf_locus))/count
+   # print count,len(highconf_locus),float(len(highconf_locus))/count
+    return highconf_locus
 
-
-if __name__=="__main__":
-    main()
-
+#find_highconf(sys.argv[1])
