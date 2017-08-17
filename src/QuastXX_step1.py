@@ -13,8 +13,10 @@ args = parser.parse_args()
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
+        os.system("chmod +x *.sh")
         os.system("python QuastXX_step1.py -h")
     else:
+        os.system("chmod +x *.sh")
         if not os.path.exists(args.out_dir):
             os.system("mkdir " + args.out_dir)
 
