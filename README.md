@@ -27,7 +27,7 @@ optional arguments:
 
 ### Step 2: 
 ```
-python QuastXX_step2.py -o_dir ../CF1_test_result/
+python QuastXX_step2.py -o_dir ../Lysis_Cr_0.2/
 ```
 ```
 usage: QuastXX_step2.py [-h] [--out_dir OUT_DIR]
