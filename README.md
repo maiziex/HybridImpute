@@ -8,8 +8,7 @@ from HybridImpute import *
 X_hybrid = HybridImpute(X_incomplete)
 ```
 
-To use additional information for `HybridImpute`, for example: protein to protein interaction
-try optional arguments: ProteinToProtein_feature.txt
+To use additional information for `HybridImpute`, use optional arguments. For example: protein to protein interaction
 ```
 X_hybrid = HybridImpute(X_incomplete,optional="ProteinToProtein_feature.txt")
 ```
