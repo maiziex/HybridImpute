@@ -10,13 +10,13 @@ git clone https://github.com/maiziex/HybridImpute.git
 from HybridImpute import *
 Matrix_hybrid = HybridImpute(Matrix_incomplete)
 ```
-### 2. To use additional information for `HybridImpute`, use optional arguments. <br />
+### 2. To use additional information for HybridImpute.py, use optional arguments. <br />
 For example: protein to protein interaction
 ```
 matrix_hybrid = HybridImpute(Matrix_incomplete,optional="ProteinToProtein_feature.txt")
 ```
 
-### 3. If the test set exists, use `Validate_HybridImpute` to produce RMSE, Pearson Correlation Coefficient between true values and predicted values. <br />
+### 3. If the test set exists, use Validate_HybridImpute.py to produce RMSE, Pearson Correlation Coefficient between true values and predicted values. <br />
 output: Matrix_Filled_by_HybridImpute.csv
 ```
 python2 Validate_HybridImpute.py -i ../doc/160703_Ricin_GIscore_Matrix_RicinResistPhenotype.xls -s ricin_resist -row 79 -col 79 -p 0.4 -fea ../doc/Homology_feature_yeast20.txt -o_dir ../result/ 
