@@ -5,12 +5,12 @@
 ### 1. Basic 
 ```
 from HybridImpute import *
-X_hybrid = HybridImpute(X_incomplete)
+matrix_hybrid = HybridImpute(matrix_incomplete)
 ```
 ### 2. To use additional information for `HybridImpute`, use optional arguments. <br />
 For example: protein to protein interaction
 ```
-X_hybrid = HybridImpute(X_incomplete,optional="ProteinToProtein_feature.txt")
+matrix_hybrid = HybridImpute(matrix_incomplete,optional="ProteinToProtein_feature.txt")
 ```
 
 ### 3. If the test set exists, use `Validate_HybridImpute` to produce RMSE, Pearson Correlation Coefficient between true values and predicted values. <br />
