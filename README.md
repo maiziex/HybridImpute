@@ -1,4 +1,5 @@
 # HybridImpute
+## Install:
 
 ## Running The Code:
 
