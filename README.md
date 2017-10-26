@@ -14,8 +14,8 @@ For example: protein to protein interaction
 X_hybrid = HybridImpute(X_incomplete,optional="ProteinToProtein_feature.txt")
 ```
 
-If the test set exists, use Validate_HybridImpute to produce RMSE, Pearson Correlation Coefficient between true values and predicted values.
-output: "Matrix_Filled_by_HybridImpute.csv"
+If the test set exists, use `Validate_HybridImpute` to produce RMSE, Pearson Correlation Coefficient between true values and predicted values.
+output: `Matrix_Filled_by_HybridImpute.csv`
 ```
 usage: Validate_HybridImpute.py [-h] [--input_file_prefix INPUT_FILE_PREFIX]
                                 [--sheet_name SHEET_NAME]
