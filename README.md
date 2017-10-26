@@ -1,7 +1,10 @@
 # HybridImpute
 ## Install:
-
+```
+git clone https://github.com/maiziex/HybridImpute.git
 ## Running The Code:
+```
+
 ### 1. Basic 
 ```
 from HybridImpute import *
