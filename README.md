@@ -15,7 +15,10 @@ X_hybrid = HybridImpute(X_incomplete,optional="ProteinToProtein_feature.txt")
 ```
 
 If the test set exists, use `Validate_HybridImpute` to produce RMSE, Pearson Correlation Coefficient between true values and predicted values. <br />
-output: `Matrix_Filled_by_HybridImpute.csv`
+output: Matrix_Filled_by_HybridImpute.csv
+```
+python2 Validate_HybridImpute.py -i ../doc/160703_Ricin_GIscore_Matrix_RicinResistPhenotype.xls -s ricin_resist -row 79 -col 79 -p 0.4 -fea ../doc/Homology_feature_yeast20.txt -o_dir ../result/ 
+```
 ```
 usage: Validate_HybridImpute.py [-h] [--input_file_prefix INPUT_FILE_PREFIX]
                                 [--sheet_name SHEET_NAME]
