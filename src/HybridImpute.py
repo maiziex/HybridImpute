@@ -14,12 +14,7 @@ import matplotlib
 matplotlib.use('Agg')
 from os import system
 import matplotlib.pyplot as plt
-from fancyimpute import (
-                         BiScaler,
-                         KNN,
-                         NuclearNormMinimization,
-                         SoftImpute,
-                         SimpleFill)
+from fancyimpute import SoftImpute
 from argparse import ArgumentParser
 
 
