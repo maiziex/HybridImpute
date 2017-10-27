@@ -12,7 +12,7 @@ from HybridImpute import *
 Matrix_hybrid = HybridImpute(Matrix_incomplete)
 ```
 ### 2. To use additional information for HybridImpute.py, use optional arguments. <br />
-For example: protein to protein interaction
+e.g.: protein to protein interaction
 ```
 matrix_hybrid = HybridImpute(Matrix_incomplete,optional="ProteinToProtein_feature.txt")
 ```
