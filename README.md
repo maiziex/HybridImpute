@@ -1,10 +1,7 @@
 # HybridImpute
 ## Install:
-Install <a href="https://github.com/jaak-s/macau">macau</a>
-Install <a href="https://pypi.python.org/pypi/fancyimpute">softimpute</a>
+Make sure that <a href="https://github.com/jaak-s/macau">macau</a> and <a href="https://pypi.python.org/pypi/fancyimpute">softimpute</a> are installed
 ```
-import macau without error
-from fancyimpute import SoftImpute without error
 git clone https://github.com/maiziex/HybridImpute.git
 ```
 
