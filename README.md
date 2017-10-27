@@ -1,10 +1,10 @@
 # HybridImpute
 ## Install:
 ```
-# import macau without error
+import macau without error
 Install <a href="https://github.com/jaak-s/macau">macau</a>
 go to <a href="https://support.10xgenomics.com/genome-exome/software/downloads/latest">10X GENOMICS Website</a>
-# from fancyimpute import SoftImpute without error
+from fancyimpute import SoftImpute without error
 Install <a href="https://pypi.python.org/pypi/fancyimpute">softimpute</a>
 
 git clone https://github.com/maiziex/HybridImpute.git
