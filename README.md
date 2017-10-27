@@ -5,7 +5,7 @@ Make sure that <a href="https://github.com/jaak-s/macau">macau</a> and <a href="
 git clone https://github.com/maiziex/HybridImpute.git
 ```
 
-## Running The Code:
+## Run The Code:
 ### 1. Basic 
 ```
 from HybridImpute import *
