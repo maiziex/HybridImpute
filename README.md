@@ -45,7 +45,7 @@ optional arguments:
   --col_num COL_NUM, -col COL_NUM
                         Number of columns of the matrix
   --missing_percent MISSING_PERCENT, -p MISSING_PERCENT
-                        Customer Defined missing percent for the matrix
+                        Customer defined missing percent for the matrix
   --out_dir OUT_DIR, -o_dir OUT_DIR
                         Directory to store outputs
 
