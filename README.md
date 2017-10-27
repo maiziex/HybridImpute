@@ -1,4 +1,4 @@
-# HybridImpute
+# HybridImpute: A Hybrid Algorithm to Impute the Genetic Interaction Score
 ## Install:
 Make sure that <a href="https://github.com/jaak-s/macau">macau</a> and <a href="https://pypi.python.org/pypi/fancyimpute">softimpute</a> are installed, Then install following HybridImpute
 ```
