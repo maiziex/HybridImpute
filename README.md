@@ -35,11 +35,12 @@ Validating Results by HybridImpute
 optional arguments:
   -h, --help            show this help message and exit
   --input_excel INPUT_EXCEL, -i INPUT_EXCEL
-                        Input excel file
+                        Input excel file to store the matrix
   --sheet_name SHEET_NAME, -s SHEET_NAME
-                        Sheet name of input excel file
+                        Sheet name of the input excel file
   --feature_file FEATURE_FILE, -fea FEATURE_FILE
-                        additional feature txt file
+                        Additional txt file for features, eg: protein to
+                        protein interaction
   --row_num ROW_NUM, -row ROW_NUM
                         Number of rows of the matrix
   --col_num COL_NUM, -col COL_NUM
@@ -48,6 +49,5 @@ optional arguments:
                         Customer defined missing percent for the matrix
   --out_dir OUT_DIR, -o_dir OUT_DIR
                         Directory to store outputs
-
 ```
 
